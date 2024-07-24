@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.webp");
+}
+header{
+    background-color: rgba(53, 53, 53, 0.432);
+    color: white;
+    padding: 10px;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:tomato;
+}
+#welcome{
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+
+    filter: blur();
+}
+.hello{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal ;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+}
+#welcome p{
+    font-family:sans-serif;
+    font-weight: normal ;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+    
+}
+.touch{
+    background-color: lawngreen;
+    border-style: none;
+    padding: 15px;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.touch:hover{
+    background-color: tomato;
+}
+#About{
+text-align: center;
+margin: 100px;
+border: none;
+padding: 10px;
+background-color:rgba(255, 135, 135, 0.432);
+box-shadow: 5px 5px 5px wheat;
+}
+.aboutme{
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#About p{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px black;
+    font-size: larger;
+    text-align: justify;
+
+
+}
