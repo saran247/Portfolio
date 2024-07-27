@@ -1,9 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/about.webp");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1552%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1137.4122740486027 233.0324144182863L1211.4707950397794 67.11997138381051 1053.2487070171805 80.96261040518885z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1358.782%2c507.329C1387.126%2c506.515%2c1415.232%2c497.251%2c1430.517%2c473.367C1447.026%2c447.571%2c1451.929%2c413.491%2c1435.295%2c387.776C1419.657%2c363.601%2c1387.574%2c362.523%2c1358.782%2c362.47C1329.855%2c362.416%2c1298.167%2c363.657%2c1281.776%2c387.492C1263.509%2c414.055%2c1262.114%2c450.579%2c1279.542%2c477.7C1295.881%2c503.127%2c1328.57%2c508.196%2c1358.782%2c507.329' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M230.0667528249264 379.58351665340456L122.11049043692651 372.0344793952746 164.76506574373155 537.7433916063394z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M460.23813831672334 142.52910101021317L322.9445246945525 18.6722501471515 286.5842199123798 176.1660330927516z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M231.28052362912425 500.07119396307337L220.17074109847627 557.2260702976753 311.457946865703 545.3133059263463z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M670.0196042407 569.9168645757624L728.9324351303724 657.2587281973821 830.4888151179658 525.2185500520637z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1552'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-size: cover;
+    zoom: 90%;
 }
 header{
     background-color: rgba(53, 53, 53, 0.432);
@@ -146,7 +147,7 @@ border-radius: 25px;
     padding: 10px;
     background-color:rgba(255, 255, 255, 0.151);
     box-shadow: 5px 5px 3px rgb(122, 255, 110);
-border-radius: 15px;;
+    border-radius: 15px;;
 }
 
 .my_project{
@@ -185,10 +186,10 @@ text-shadow: none;
     box-shadow: 5px 5px 3px rgb(122, 255, 110);
     border-radius: 15px;;
 }
-.con{
+.contacts{
     display:inline-block;
 }
-.con h3{
+.contacts h3{
     margin-left: 35px;
     display: flex;
     margin-bottom: 5px;
@@ -198,3 +199,54 @@ text-shadow: none;
 .con img{
     margin-right: 10px;
 }
+#certificates{
+    text-align: center;
+    margin: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.151);
+    box-shadow: 5px 5px 3px rgb(122, 255, 110);
+    border-radius: 15px;;
+}
+.Mycertificates{
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 25px;
+    text-shadow: 5px 5px 5px black;
+    font-size: large;
+    }
+.certificate{
+    margin: 10px;
+    padding: 25px;
+    text-align: left;
+    height: 150px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    box-shadow: 5px 5px 5px rgb(255, 166, 0);
+    border-radius: 25px;
+    }
+.certificate:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.788);
+    text-shadow: none;
+    }
+.credential{
+        border-style: none;
+        padding: 10px;
+        width: 150px;
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+        border-radius: 15px;
+        margin-left: 60%;
+        background-color: rgb(21, 255, 0);
+    }
+.credential:hover{
+        color: white;
+        background-color: red;
+
+    }
