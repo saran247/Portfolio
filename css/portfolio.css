@@ -5,6 +5,9 @@ body{
 
     zoom: 90%;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 header{
     background-color: rgba(53, 53, 53, 0.432);
     color: white;
