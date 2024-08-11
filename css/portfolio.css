@@ -236,19 +236,55 @@ text-shadow: none;
     background-color: rgba(255, 255, 255, 0.788);
     text-shadow: none;
     }
-.credential , .gitlink{
-        border-style: none;
-        padding: 10px;
-        width: 150px;
-        color: black;
-        font-size: medium;
-        font-weight: bold;
-        border-radius: 15px;
-        margin-left: 60%;
-        background-color: rgb(21, 255, 0);
+#prof_dev{
+    text-align: center;
+    margin: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.151);
+    box-shadow: 5px 5px 3px rgb(122, 255, 110);
+    border-radius: 15px;;
+}
+.my_webinars{
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 25px;
+    text-shadow: 5px 5px 5px black;
+    font-size: large;
+}
+.webinar{
+    margin: 10px;
+    padding: 25px;
+    text-align: left;
+    height: 150px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    box-shadow: 5px 5px 5px rgb(255, 166, 0);
+    border-radius: 25px;
     }
-.credential:hover, .gitlink:hover{
-        color: white;
-        background-color: red;
+.webinar:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.788);
+    text-shadow: none;
+ }
 
-    }
+.credential , .gitlink{
+    border-style: none;
+    padding: 10px;
+    width: 150px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 60%;
+    background-color: rgb(21, 255, 0);
+}
+.credential:hover, .gitlink:hover{
+    color: white;
+    background-color: red;
+
+}
