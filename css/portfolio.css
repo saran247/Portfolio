@@ -49,6 +49,31 @@ ul li a{
 ul li a:hover{
     color:tomato;
 }
+footer{
+    background-color: rgba(53, 53, 53, 0.432);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    position:relative;
+
+}
+.contacts{
+    display:inline-block;
+
+}
+.contacts h3{
+    margin-left: 35px;
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-shadow: 5px 5px 5px black;
+}
+.con img{
+    margin-right: 10px;
+}
 #welcome{
     text-align: center;
     padding: 10px;
@@ -178,29 +203,7 @@ color: black;
 background-color: rgba(255, 255, 255, 0.788);
 text-shadow: none;
 }
-#contact{
-    text-align: center;
-    margin: 100px;
-    color: white;
-    border: none;
-    padding: 10px;
-    background-color:rgba(255, 255, 255, 0.151);
-    box-shadow: 5px 5px 3px rgb(122, 255, 110);
-    border-radius: 15px;;
-}
-.contacts{
-    display:inline-block;
-}
-.contacts h3{
-    margin-left: 35px;
-    display: flex;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    text-shadow: 5px 5px 5px black;
-}
-.con img{
-    margin-right: 10px;
-}
+
 #certificates{
     text-align: center;
     margin: 100px;
@@ -246,24 +249,7 @@ text-shadow: none;
     box-shadow: 5px 5px 3px rgb(122, 255, 110);
     border-radius: 15px;;
 }
-.my_webinars{
 
-}
-.webinar{
-    margin: 10px;
-    padding: 25px;
-    text-align: left;
-    height: 150px;
-    width: 400px;
-    border: 2px solid rgba(255, 255, 255, 0.705);
-    box-shadow: 5px 5px 5px rgb(255, 166, 0);
-    border-radius: 25px;
-    }
-.webinar:hover{
-    color: black;
-    background-color: rgba(255, 255, 255, 0.788);
-    text-shadow: none;
- }
 
 .credential , .gitlink{
     border-style: none;
@@ -336,4 +322,9 @@ text-shadow: none;
     font-weight: bold;
     border-radius: 15px;
     background-color: rgb(21, 255, 0);
+}
+.msg label{
+    font-size: large;
+    font-weight: bold; 
+    text-shadow: 5px 5px 5px black;
 }
