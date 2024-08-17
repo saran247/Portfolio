@@ -317,6 +317,7 @@ text-shadow: none;
     border-radius: 25px;
 
 }
+
 .msg input,textarea{
     width: 400px;
     min-width: 400px;
@@ -329,6 +330,10 @@ text-shadow: none;
 .msg textarea{
     min-height:40px;
     max-height: 60px;
+}
+.msg textarea:focus,input:focus{
+    outline-color: red;
+    outline-style:groove;
 }
 .msg button{
     border-style: none;
