@@ -5,6 +5,9 @@ body{
 
     zoom: 90%;
 }
+html {
+    scroll-behavior: smooth;
+  }
 ::-webkit-scrollbar {
     display: none;
   }
@@ -180,12 +183,15 @@ border: 2px solid  rgba(255, 255, 255, 0.705);
 box-shadow: 5px 5px 5px rgb(255, 166, 0);;
 border-radius: 25px;
 }
-.skill li:hover
+.skill li:hover 
 {
     color: rgb(10, 10, 10);
     background-color: rgba(255, 255, 255, 0.788);
     text-shadow: none;
+    animation-name: rotate;
+    
 }
+
 #project{
     text-align: center;
     margin: 100px;
