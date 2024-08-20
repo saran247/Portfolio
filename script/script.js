@@ -74,5 +74,5 @@ document.querySelector('.msg').addEventListener('submit', function (event) {
 
         checkDevice();
 
-        setInterval(checkDevice, 10000);
+        setInterval(checkDevice, 5000);
 
