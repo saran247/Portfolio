@@ -41,6 +41,8 @@ document.querySelector('.msg').addEventListener('submit', function (event) {
     });
 });
 
+// desktop mode notifier 
+
 function isMobileDevice() {
     return /Mobi|Android/i.test(navigator.userAgent);
 }
