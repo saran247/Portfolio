@@ -66,8 +66,13 @@ document.querySelector('.msg').addEventListener('submit', function (event) {
 // window.onload = showDesktopNotification;
 // window.onresize = showDesktopNotification;/
 
-if (/Mobi|Android/i.test(navigator.userAgent)) {
-    // Show alert for mobile users
-    alert("For a better experience, please switch to desktop mode.");
-}
+        function checkDevice() {
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+                alert("For a better experience, please switch to desktop mode.");
+            }
+        }
+
+        checkDevice();
+
+        setInterval(checkDevice, 10000);
 
