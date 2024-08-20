@@ -41,28 +41,33 @@ document.querySelector('.msg').addEventListener('submit', function (event) {
     });
 });
 
-// desktop mode notifier 
+// // desktop mode notifier 
 
-function isMobileDevice() {
-    return /Mobi|Android/i.test(navigator.userAgent);
-}
+// function isMobileDevice() {
+//     return /Mobi|Android/i.test(navigator.userAgent);
+// }
 
-function checkDesktopMode() {
-    const screenWidth = window.innerWidth;
-    const screenHeight = window.innerHeight;
+// function checkDesktopMode() {
+//     const screenWidth = window.innerWidth;
+//     const screenHeight = window.innerHeight;
     
-    // Example condition: screen width is more than 768px (tablet or desktop view)
-    return screenWidth > 768;
-}
+//     // Example condition: screen width is more than 768px (tablet or desktop view)
+//     return screenWidth > 768;
+// }
 
-function showDesktopNotification() {
-    const notification = document.getElementById('desktop-mode-notification');
+// function showDesktopNotification() {
+//     const notification = document.getElementById('desktop-mode-notification');
     
-    if (isMobileDevice() && !checkDesktopMode()) {
-        notification.style.display = 'block';
-    }
-}
+//     if (isMobileDevice() && !checkDesktopMode()) {
+//         notification.style.display = 'block';
+//     }
+// }
 
-window.onload = showDesktopNotification;
-window.onresize = showDesktopNotification;
+// window.onload = showDesktopNotification;
+// window.onresize = showDesktopNotification;/
+
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    // Show alert for mobile users
+    alert("For a better experience, please switch to desktop mode.");
+}
 
