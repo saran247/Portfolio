@@ -40,3 +40,27 @@ document.querySelector('.msg').addEventListener('submit', function (event) {
         submitButton.disabled = false;
     });
 });
+
+function isMobileDevice() {
+    return /Mobi|Android/i.test(navigator.userAgent);
+}
+
+function checkDesktopMode() {
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+    
+    // Example condition: screen width is more than 768px (tablet or desktop view)
+    return screenWidth > 768;
+}
+
+function showDesktopNotification() {
+    const notification = document.getElementById('desktop-mode-notification');
+    
+    if (isMobileDevice() && !checkDesktopMode()) {
+        notification.style.display = 'block';
+    }
+}
+
+window.onload = showDesktopNotification;
+window.onresize = showDesktopNotification;
+
