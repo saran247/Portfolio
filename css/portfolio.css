@@ -93,22 +93,40 @@ footer{
     width: 100%;
     box-sizing: border-box;
     position:relative;
-
+    
 }
 .contacts{
-    display:inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
-.contacts h3{
-    margin-left: 35px;
-    display: flex;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    text-shadow: 5px 5px 5px black;
+.contacts p{
+    color: rgb(221, 221, 221);
+    font-weight: bold;
+    font-size: large;
 }
-.con img{
-    margin-right: 10px;
+.url{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10px;
 }
+.con_img{
+    height: 38px;
+    width: 38px;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(50%);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.con_img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
 #welcome{
     text-align: center;
     padding: 10px;
