@@ -49,7 +49,7 @@ ul{
     text-align: left;
     font-family: cursive;
     color: white;
-    font-size: large;
+    font-size: larger;
 
 }
 ul .lis{
@@ -60,7 +60,7 @@ ul .lis{
 }
 ul .lis .men{
     color: white;
-    font-size: larger;
+    font-size:x-large;
     text-decoration: none;
     position: relative; 
 }
@@ -116,7 +116,7 @@ footer{
     height: 38px;
     width: 38px;
     transition: all 0.3s ease-in-out;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
     border-radius: 50%;
     margin: 10px;
 }
@@ -154,21 +154,24 @@ footer{
     
 }
 
-.btn{
-    background-color: lawngreen;
+.btn {
     border-style: none;
     padding: 15px;
-    font-family:monospace;
-    font-weight: bold;
-    font-size: large;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size:x-large;
     margin-right: 10px;
     box-shadow: 5px 5px 5px black;
-    border-radius: 10px;
-    
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
 }
-.btn:hover{
-    background-color: tomato;
+
+.btn:hover {
+    background-position: 100% 0;
     color: white;
+    box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
 #About{
 text-align: center;
@@ -213,13 +216,15 @@ text-shadow: 5px 5px 5px black;
 border: 2px solid  rgba(255, 255, 255, 0.705);
 box-shadow: 5px 5px 5px rgb(255, 166, 0);;
 border-radius: 25px;
+transition: all 0.3s ease-in-out;
 }
 .skill li:hover 
 {
     color: rgb(10, 10, 10);
     background-color: rgba(255, 255, 255, 0.788);
     text-shadow: none;
-    animation-name: rotate;
+    box-shadow: 5px 5px 5px rgb(255, 115, 0);;
+    transform: scale(1.1);
     
 }
 
@@ -245,7 +250,7 @@ font-size: large;
 }
 
 .pro{
-margin: 10px;
+margin: 20px;
 padding: 20px;
 text-align: left;
 height: 180px;
@@ -253,11 +258,14 @@ width: 410px;
 border: 2px solid rgba(255, 255, 255, 0.705);
 box-shadow: 5px 5px 5px rgb(255, 166, 0);
 border-radius: 25px;
+transition: all 0.3s ease-in-out;
 }
 .pro:hover{
 color: black;
 background-color: rgba(255, 255, 255, 0.788);
+box-shadow: 5px 5px 5px rgb(255, 115, 0);;
 text-shadow: none;
+transform: scale(1.1);
 }
 
 #certificates{
@@ -281,7 +289,7 @@ text-shadow: none;
     font-size: large;
     }
 .certificate{
-    margin: 10px;
+    margin: 20px;
     padding: 25px;
     text-align: left;
     height: 150px;
@@ -289,11 +297,14 @@ text-shadow: none;
     border: 2px solid rgba(255, 255, 255, 0.705);
     box-shadow: 5px 5px 5px rgb(255, 166, 0);
     border-radius: 25px;
+    transition: all 0.3s ease-in-out;
     }
 .certificate:hover{
     color: black;
     background-color: rgba(255, 255, 255, 0.788);
+    box-shadow: 5px 5px 5px rgb(255, 115, 0);;
     text-shadow: none;
+    transform: scale(1.1);
     }
 #prof_dev{
     text-align: center;
@@ -316,11 +327,15 @@ text-shadow: none;
     font-weight: bold;
     border-radius: 15px;
     margin-left: 60%;
-    background-color: rgb(21, 255, 0);
+    /* background-color: rgb(21, 255, 0); */
+    background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
 }
 .credential:hover, .gitlink:hover, .msg button:hover{
-        color: white;
-        background-color: red;
+    background-position: 100% 0;
+    color: white;
+    box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 
 }
 #Gettouch{
@@ -382,7 +397,15 @@ text-shadow: none;
     font-size: medium;
     font-weight: bold;
     border-radius: 15px;
-    background-color: rgb(21, 255, 0);
+    background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
+}
+.msg button:hover{
+    background-position: 100% 0;
+    color: white;
+    box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
+
 }
 .msg label{
     font-size: large;
